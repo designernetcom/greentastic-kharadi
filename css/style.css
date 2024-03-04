@@ -447,7 +447,8 @@ html body .top-header.header-2 .sticky .nav-link:hover {
 .floor-img {
 	display: block;
 	border-radius: 6px;
-	width: 100%
+	width: 100%;
+	border: 3px solid #236b62;
 }
 
 .floor-img img {
@@ -1608,7 +1609,7 @@ html .pb100 {
 	background: #000;
 	width: 100%;
 	height: 100%;
-	opacity: .25;
+	opacity: .35;
 	top: 0;
 	left: 0;
 	right: 0
@@ -2154,3 +2155,10 @@ html body .top-header.header-2 .navbutton {
       .header-logo img {
       width: 250px;
     }
+
+	.table td a {
+		background: #236b62;
+		padding: 5px 10px;
+		color: white;
+		border-radius: 4px;
+	}
